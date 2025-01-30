@@ -4,6 +4,7 @@
  */
 
 package com.mycompany.shenoproject;
+import java.util.*;
 
 /**
  *
@@ -12,6 +13,15 @@ package com.mycompany.shenoproject;
 public class Shenoproject {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the first number:");
+        int a=sc.nextInt();
+     
+        
+        System.out.println("Enter the second number:");
+         int b=sc.nextInt();
+         int c=a+b;
+        System.out.println("The addition of 2 numbers is" + c);
+        
     }
 }
